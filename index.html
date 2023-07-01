@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: #d4e0ee;
+      margin: 0;
+      height: 100vh;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    div {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .container {
+      background-color: white;
+      margin: auto;
+
+      width: 300px;
+
+      padding-top:   20px;
+      padding-left:  20px;
+      padding-right: 20px;
+      border-radius: 20px;
+
+      box-shadow: 1px 1px #eee;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .qrcode-image {
+      width:  310px;
+      height: 310px;
+
+      padding-bottom : 30px;
+    }
+    .qrcode-image img {
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .title {
+      padding: 0px 15px 15px 15px;
+      
+      text-align: center;
+      color: #2b3a51;
+      font-size: 20px;
+      font-weight: 900;
+
+      line-height: 150%;
+    }
+
+    .paragraph {
+      padding: 0px 15px 50px 15px;
+
+      text-align: center;
+      color: #85858d;
+      font-size: 15px;
+      font-weight: 300;
+
+      line-height: 150%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="qrcode-image">
+      <img src="images/image-qr-code.png">
+    </div>
+    <div class="title">Improve your front-end skills by building projects</div>
+    <div class="paragraph">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+  </div>
+</body>
+</html>
